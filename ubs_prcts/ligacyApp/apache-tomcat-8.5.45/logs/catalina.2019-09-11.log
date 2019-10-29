@@ -1,0 +1,57 @@
+11-Sep-2019 23:38:32.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.45
+11-Sep-2019 23:38:33.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 14 2019 22:21:25 UTC
+11-Sep-2019 23:38:33.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.45.0
+11-Sep-2019 23:38:33.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-Sep-2019 23:38:33.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Sep-2019 23:38:33.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Sep-2019 23:38:33.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Oracle\OpenJDK 11.0.1
+11-Sep-2019 23:38:33.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.1+13
+11-Sep-2019 23:38:33.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Sep-2019 23:38:33.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45
+11-Sep-2019 23:38:33.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45
+11-Sep-2019 23:38:34.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Sep-2019 23:38:34.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Sep-2019 23:38:34.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Sep-2019 23:38:34.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45\conf\logging.properties
+11-Sep-2019 23:38:34.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Sep-2019 23:38:34.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Sep-2019 23:38:34.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Sep-2019 23:38:34.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Sep-2019 23:38:34.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45
+11-Sep-2019 23:38:34.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45
+11-Sep-2019 23:38:34.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45\temp
+11-Sep-2019 23:38:34.905 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+11-Sep-2019 23:38:34.980 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-Sep-2019 23:38:35.164 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-Sep-2019 23:38:35.350 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+11-Sep-2019 23:38:37.559 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Sep-2019 23:38:53.352 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Sep-2019 23:38:54.118 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Sep-2019 23:38:54.127 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Sep-2019 23:38:54.131 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 29569 ms
+11-Sep-2019 23:38:54.513 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Sep-2019 23:38:54.514 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.45
+11-Sep-2019 23:38:54.726 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45\webapps\springmvc.war]
+11-Sep-2019 23:39:05.331 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Sep-2019 23:39:11.936 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [6,440] milliseconds.
+11-Sep-2019 23:39:17.889 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45\webapps\springmvc.war] has finished in [23,164] ms
+11-Sep-2019 23:39:17.893 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45\webapps\docs]
+11-Sep-2019 23:39:17.983 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45\webapps\docs] has finished in [90] ms
+11-Sep-2019 23:39:17.985 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45\webapps\examples]
+11-Sep-2019 23:39:19.362 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45\webapps\examples] has finished in [1,378] ms
+11-Sep-2019 23:39:19.367 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45\webapps\host-manager]
+11-Sep-2019 23:39:19.562 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45\webapps\host-manager] has finished in [195] ms
+11-Sep-2019 23:39:19.566 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45\webapps\manager]
+11-Sep-2019 23:39:19.734 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45\webapps\manager] has finished in [170] ms
+11-Sep-2019 23:39:19.739 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45\webapps\ROOT]
+11-Sep-2019 23:39:19.954 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\works\ubs_prcts\ligacyApp\apache-tomcat-8.5.45\webapps\ROOT] has finished in [215] ms
+11-Sep-2019 23:39:20.063 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Sep-2019 23:39:20.156 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Sep-2019 23:39:20.197 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 26064 ms
+11-Sep-2019 23:46:46.376 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Sep-2019 23:46:51.564 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Sep-2019 23:46:57.220 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Sep-2019 23:46:57.403 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Sep-2019 23:46:57.414 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Sep-2019 23:46:57.426 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Sep-2019 23:46:57.446 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

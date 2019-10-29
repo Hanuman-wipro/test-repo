@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Drools.iml" filepath="$PROJECT_DIR$/.idea/Drools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Decision table/drools-decision-table.iml" filepath="$PROJECT_DIR$/Decision table/drools-decision-table.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring integration/drools-spring-integration.iml" filepath="$PROJECT_DIR$/Spring integration/drools-spring-integration.iml" />
+    </modules>
+  </component>
+</project>

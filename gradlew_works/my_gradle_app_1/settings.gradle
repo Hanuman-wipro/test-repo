@@ -1,0 +1,3 @@
+rootProject.name = 'my_gradle_app_1'
+include 'common'
+

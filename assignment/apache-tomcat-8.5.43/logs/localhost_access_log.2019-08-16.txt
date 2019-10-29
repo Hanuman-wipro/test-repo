@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [16/Aug/2019:14:35:20 +0530] "GET /moviefun HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Aug/2019:14:35:22 +0530] "GET /moviefun/ HTTP/1.1" 200 1312
+0:0:0:0:0:0:0:1 - - [16/Aug/2019:14:35:22 +0530] "GET /moviefun/assets/css/bootstrap.css HTTP/1.1" 200 121555
+0:0:0:0:0:0:0:1 - - [16/Aug/2019:14:35:22 +0530] "GET /moviefun/assets/css/movie.css HTTP/1.1" 200 963
+0:0:0:0:0:0:0:1 - - [16/Aug/2019:14:35:22 +0530] "GET /moviefun/assets/css/bootstrap-responsive.css HTTP/1.1" 200 23922
+0:0:0:0:0:0:0:1 - - [16/Aug/2019:14:35:22 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [16/Aug/2019:14:35:34 +0530] "GET /moviefun/setup.jsp HTTP/1.1" 500 4709
+0:0:0:0:0:0:0:1 - - [16/Aug/2019:14:35:57 +0530] "GET /moviefun/moviefun HTTP/1.1" 500 1532
+0:0:0:0:0:0:0:1 - - [16/Aug/2019:14:36:09 +0530] "GET /moviefun/setup.jsp HTTP/1.1" 500 4709
+0:0:0:0:0:0:0:1 - - [16/Aug/2019:14:39:28 +0530] "GET /moviefun/setup.jsp HTTP/1.1" 500 4709
+0:0:0:0:0:0:0:1 - - [16/Aug/2019:14:45:51 +0530] "GET /moviefun/setup.jsp HTTP/1.1" 500 4379
+0:0:0:0:0:0:0:1 - - [16/Aug/2019:14:45:51 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [16/Aug/2019:14:45:56 +0530] "GET /moviefun/ HTTP/1.1" 200 1312
+0:0:0:0:0:0:0:1 - - [16/Aug/2019:14:45:58 +0530] "GET /moviefun/setup.jsp HTTP/1.1" 500 4379

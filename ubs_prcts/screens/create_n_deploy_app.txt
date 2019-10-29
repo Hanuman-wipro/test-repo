@@ -1,0 +1,127 @@
+
+Q1. How to login in PCF
+1 open Terminal/cmd  type cf login press enter button.
+
+$cf login
+
+2. type API endpoint and press enter button
+API endpoint> https://api.run.pivotal.io
+
+3 type register email and press enter button
+Email> hanuman.pandey@wipro.com
+4. type password and press enter button
+Password>
+Authenticating...
+OK
+5. if you are seeing ok on console, logged in successfully
+
+Targeted org hanuman_org
+
+Select a space (or press enter to skip):
+1. development
+2. review
+
+Space> development
+Targeted space development
+
+
+
+API endpoint:   https://api.run.pivotal.io (API version: 2.140.0)
+User:           hanuman.pandey@wipro.com
+Org:            hanuman_org
+Space:          development
+
+Q2. How to push a simple springboot application
+
+1 create a springboot application build, test and run locally.
+2. build the  simple.jar
+--------------------------------------------------------------------------------------------------------------------------------
+push - Push a new app or sync changes to an existing app
+
+USAGE:
+   Push a single app (with or without a manifest):
+   cf push APP_NAME [-b BUILDPACK_NAME] [-c COMMAND] [-d DOMAIN] [-f MANIFEST_PATH] [--docker-image DOCKER_IMAGE]
+   [-i NUM_INSTANCES] [-k DISK] [-m MEMORY] [--hostname HOST] [-p PATH] [-s STACK] [-t TIMEOUT] [-u (process | port | http)] [--route-path ROUTE_PATH]
+   [--no-hostname] [--no-manifest] [--no-route] [--no-start] [--random-route]
+
+   Push multiple apps with a manifest:
+   cf push [-f MANIFEST_PATH]
+
+ALIAS:
+   p
+
+OPTIONS:
+   -b                           Custom buildpack by name (e.g. my-buildpack) or Git URL (e.g. 'https://github.com/cloudfoundry/java-buildpack.git') or Git URL with a branch or tag (e.g. 'https://github.com/cloudfoundry/java-buildpack.git#v3.3.0' for 'v3.3.0' tag). To use built-in buildpacks only, specify 'default' or 'null'
+   -c                           Startup command, set to null to reset to default start command
+   -d                           Domain (e.g. example.com)
+   --docker-image, -o           Docker-image to be used (e.g. user/docker-image-name)
+   -f                           Path to manifest
+   --health-check-type, -u      Application health check type (Default: 'port', 'none' accepted for 'process', 'http' implies endpoint '/')
+   --hostname, -n               Hostname (e.g. my-subdomain)
+   -i                           Number of instances
+   -k                           Disk limit (e.g. 256M, 1024M, 1G)
+   -m                           Memory limit (e.g. 256M, 1024M, 1G)
+   --no-hostname                Map the root domain to this app
+   --no-manifest                Ignore manifest file
+   --no-route                   Do not map a route to this app and remove routes from previous pushes of this app
+   --no-start                   Do not start an app after pushing
+   -p                           Path to app directory or to a zip file of the contents of the app directory
+   --random-route               Create a random route for this app
+   --route-path                 Path for the route
+   -s                           Stack to use (a stack is a pre-built file system, including an operating system, that can run apps)
+   -t                           Time (in seconds) allowed to elapse between starting up an app and the first healthy response from the app
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+3. cf push -p appName -p jar file path --random-route --no-start
+
+3.a. for example
+cf push ubs-app  -p D:\works\ubs_prcts\ubsapp\target\ubsapp-0.0.1-SNAPSHOT.jar --random-route --no-start
+
+Creating app ubs-app in org hanuman_org / space development as hanuman.pandey@wipro.com...
+OK
+
+Creating route ubs-app-nonregulative-pentapody.cfapps.io...
+OK
+
+Binding ubs-app-nonregulative-pentapody.cfapps.io to ubs-app...
+OK
+
+Uploading ubs-app...
+Uploading app files from: C:\Users\HA20091740\AppData\Local\Temp\unzipped-app338580959
+Uploading 233.3K, 90 files
+Done uploading
+OK
+
+4. how to stop the app
+cf stop AppName
+example : cf stop ubs-app
+
+5. How to delete the app
+cf delete appName -r -f
+example cf delete ubs-app -r -f
+
+6. how to push the application 
+  create main fiest file  build and run localy and push the application
+    for example 
+	
+	$cf push
+	
+	
+7. how to deploy legacy application
+
+https://github.com/cloudfoundry/java-buildpack/blob/master/docs/example-servlet.md
+
+cf push springmvc -p D:\works\ubs_prcts\ligacyApp\apache-tomcat-9.0.24\webapps\springmvc.war -b https://github.com/cloudfoundry/java-buildpack.git  --random-route --no-start
+
+env.sh/env.bat
+spring.profiles.active=dev
+
+8. kartik ID
+karthikeyan.balasubramanian@wipro.com 
+
+port 8080
+server.servlet.context-path=/
+
+localhost:8080/baeldung/register.html
+	
+  
+

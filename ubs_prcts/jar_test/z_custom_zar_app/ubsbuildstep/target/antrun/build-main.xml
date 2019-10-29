@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <jar destfile="target/AntExec-2.1.8.RELEASE.jar" compress="false">
+    <mappedresources>
+      <fileset dir="target/classes"/>
+      <globmapper from="*" to="BOOT-INF/classes/*"/>
+    </mappedresources>
+    <mappedresources>
+      <fileset dir="src/main/resources" erroronmissingdir="false"/>
+      <globmapper from="*" to="BOOT-INF/classes/*"/>
+    </mappedresources>
+    <mappedresources>
+      <fileset dir="src/lib//runtime"/>
+      <globmapper from="*" to="BOOT-INF/lib/*"/>
+    </mappedresources>
+    <zipfileset src="src/lib//loader/spring-boot-loader-jar-2.1.8.RELEASE.jar"/>
+    <manifest>
+      <attribute name="Main-Class" value="org.springframework.boot.loader.JarLauncher"/>
+      <attribute name="Start-Class" value="com.man.ubsapp.bsappApplication"/>
+    </manifest>
+  </jar>
+</target>
+</project>

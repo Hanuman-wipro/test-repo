@@ -1,0 +1,14 @@
+pl\grzejszczak\marcin\drools\springintegration\enums\TypeEnum.class
+pl\grzejszczak\marcin\drools\springintegration\factory\drools\ProductProcessingFactory.class
+pl\grzejszczak\marcin\drools\springintegration\service\Processor.class
+pl\grzejszczak\marcin\drools\springintegration\DroolsSpring.class
+pl\grzejszczak\marcin\drools\springintegration\utils\SomeUtil.class
+pl\grzejszczak\marcin\drools\springintegration\service\nondrools\ProductProcessingService.class
+pl\grzejszczak\marcin\drools\springintegration\service\nondrools\NoRulesProductServiceImpl.class
+pl\grzejszczak\marcin\drools\springintegration\model\Product.class
+pl\grzejszczak\marcin\drools\springintegration\service\drools\ProductServiceImpl.class
+pl\grzejszczak\marcin\drools\springintegration\service\ProductService.class
+pl\grzejszczak\marcin\drools\springintegration\service\nondrools\ElectronicProductProcessingService.class
+pl\grzejszczak\marcin\drools\springintegration\service\nondrools\MedicalProductProcessingService.class
+pl\grzejszczak\marcin\drools\springintegration\factory\nondrools\NoRulesProcessingFactory.class
+pl\grzejszczak\marcin\drools\springintegration\factory\ProcessingFactory.class
